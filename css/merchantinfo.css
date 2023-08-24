@@ -59,11 +59,14 @@
 /********* 商品 *********/
 .wrapper .food{
 	width: 100%;
-	padding-bottom: 14vw;
+	padding-bottom: 20vw;
 }
 .wrapper .food li{
 	padding: 3vw;
-	user-select: none;
+	margin: 1vw;
+	user-select:none;
+	border: solid 1px darkgray;
+	border-radius: 5vw;
 	
 	display: flex;
 	justify-content: space-between;
@@ -113,18 +116,19 @@
 
 /********* 购物车 *********/
 .wrapper .cart{
-	width: 100%;
+	width: 95%;
 	height: 14vw;
 	
 	position: fixed;
-	left: 0;
-	bottom: 0;
+	bottom: 3vw;
+	left: 2.5vw;
 	
 	display:flex;
 }
 .wrapper .cart .left{
 	background-color: dimgray;
 	border-top-left-radius: 5vw;
+	border-bottom-left-radius: 5vw;
 	
 	display: flex;
 	flex: 2;
@@ -181,14 +185,18 @@
 	color: darkgray;
 }
 .wrapper .cart .right{
-	background-color: springgreen;
+	background-color: mediumseagreen;
 	color: white;
 	font-size: 4.7vw;
 	font-weight: 700;
 	border-top-right-radius: 5vw;
+	border-bottom-right-radius: 5vw;
 	
 	display: flex;
 	flex: 1;
 	align-items: center;
 	justify-content: center;
+	
+	cursor: pointer;
+	user-select: none;
 }

@@ -1,7 +1,6 @@
 /********* 总容器 *********/
 .wrapper{
 	width: 100%;
-	height: 100%;
 }
 
 /********* 头部 ********/
@@ -250,14 +249,16 @@
 /*********推荐商家列表*********/
 .wrapper .merchant{
 	width: 100%;
-	padding-bottom: 14vw;
+	padding-bottom: 20vw;
 }
 .wrapper .merchant li{
 	display:flex;
 	padding: 2.5vw;
+	margin: 1vw;
 	user-select:none;
 	cursor:pointer;
-	border-bottom: solid 1px darkgray;
+	border: solid 1px darkgray;
+	border-radius: 5vw;
 }
 .wrapper .merchant li img{
 	width: 20vw;
@@ -381,16 +382,15 @@
 
 /*********底部菜单*********/
 .wrapper .footer{
-	width: 100%;
+	width: 95%;
 	height: 14vw;
-	border-top: solid 1.5px darkgray;
+	border: solid 1.5px darkgray;
 	background-color: white;
-	border-top-right-radius: 5vw;
-	border-top-left-radius: 5vw;
+	border-radius: 5vw;
 	
 	position: fixed;
-	left: 0;
-	bottom: 0;
+	bottom: 3vw;
+	left: 2.5vw;
 	
 	display:flex;
 	justify-content: space-around;
