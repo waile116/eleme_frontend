@@ -63,7 +63,7 @@
 }
 .wrapper .food li{
 	padding: 3vw;
-	margin: 1vw;
+	margin: 2vw;
 	user-select:none;
 	border: solid 1px darkgray;
 	border-radius: 5vw;
@@ -121,7 +121,7 @@
 	
 	position: fixed;
 	bottom: 3vw;
-	left: 2.5vw;
+	left: 2.5%;
 	
 	display:flex;
 }
@@ -134,8 +134,8 @@
 	flex: 2;
 }
 .wrapper .cart .left .cart-icon{
-	width: 16vw;
-	height: 16vw;
+	width: 14vw;
+	height: 14vw;
 	background-color: deepskyblue;
 	border-radius: 10vw;
 	border: solid 5px darkslategray;

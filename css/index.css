@@ -132,7 +132,7 @@
 .wrapper .banner{
 	width:95%;
 	height: 30vw;
-	margin: 0 auto;
+	margin: 0 2.5vw 0;
 	background-color: white;
 	border: solid 1.5px deepskyblue;
 	border-radius: 8vw;
@@ -176,8 +176,7 @@
 .wrapper .supermember{
 	width:95%;
 	height: 15vw;
-	margin: 0 auto;
-	margin-top: 2vw;
+	margin: 2vw 2.5vw 0;
 	background-color: lightgoldenrodyellow;
 	border-radius: 6vw;
 	
@@ -254,7 +253,7 @@
 .wrapper .merchant li{
 	display:flex;
 	padding: 2.5vw;
-	margin: 1vw;
+	margin: 2vw;
 	user-select:none;
 	cursor:pointer;
 	border: solid 1px darkgray;
@@ -390,7 +389,7 @@
 	
 	position: fixed;
 	bottom: 3vw;
-	left: 2.5vw;
+	left: 2.5%;
 	
 	display:flex;
 	justify-content: space-around;

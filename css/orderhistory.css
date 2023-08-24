@@ -23,91 +23,56 @@
 	font-weight: 700;
 }
 
-/********* 订单信息 *********/
-.wrapper h3{
-	width: 100%;
+/********* 订单列表 *********/
+.wrapper .order {
 	box-sizing: border-box;
-	padding: 14vw 3vw 1vw;
-	
+	padding: 3vw;
+	margin: 14vw 2vw 2vw;
+	user-select:none;
+	border: solid 1px darkgray;
+	border-radius: 5vw;
+}
+.wrapper .order h3{
+	margin-bottom: 3vw;
 	font-size: 3.5vw;
 	font-weight: 300;
 	color: gray;
 }
-.wrapper .order-info{
-	width: 100%;
+.wrapper .order .orders li .order-info{
 	box-sizing: border-box;
-	padding: 2vw 3vw;
+	padding-bottom: 2vw;
 	font-size: 3.5vw;
 	color: darkslategray;
 	
 	display: flex;
-	align-items: center;
 	justify-content: space-between;
 }
-.wrapper .order-info .fa-caret-down{
+.wrapper .order .orders li .order-info .fa-caret-down{
 	user-select: none;
 	cursor: pointer;
 }
-.wrapper .order-info p:last-child{
-	color: orangered;
-}
-
-/********* 订单明细 *********/
-.wrapper .order-detail{
-	width: 100;
-}
-.wrapper .order-detail li{
-	box-sizing: border-box;
-	padding: 1vw 3vw 0vw;
-	
+.wrapper .order .orders li .order-info .order-info-right{
 	display: flex;
 	justify-content: space-between;
-	
+}
+.wrapper .order .orders li .order-info .order-info-right .payment-button{
+	margin-left: 2vw;
+	padding: 0 1vw;
+	background-color: darkorange;
+	color: white;
+	border-radius: 1vw;
+	user-select: none;
+	cursor: pointer;
+}
+.wrapper .order .orders li .order-detail{
+	margin-bottom: 3vw;
+}
+.wrapper .order .orders li .order-detail li{
 	font-size: 3vw;
 	color: darkslategray;
-}
-
-/********* 支付方式 *********/
-.wrapper .payment-method{
-	width: 100%;
-}
-.wrapper .payment-method li{
-	width: 100%;
-	box-sizing: border-box;
-	padding: 3vw;
 	
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
-}
-.wrapper .payment-method li img{
-	width: 33vw;
-	height: 8.9vw;
-}
-.wrapper .payment-method li .fa-check-circle{
-	color: mediumseagreen;
-	font-size: 4.5vw;
-}
-.wrapper .payment-button{
-	width: 100%;
-	box-sizing: border-box;
-	padding: 3vw;
-	padding-bottom: 20vw;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.wrapper .payment-button button{
-	width: 80%;
-	height: 10vw;
-	font-size: 3.5vw;
-	color: white;
-	background-color: mediumseagreen;
-	border: none;
-	outline: none;
-	border-radius: 4vw;
-	
-	cursor: pointer;
 }
 
 /********* 底部菜单 *********/

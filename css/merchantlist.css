@@ -32,7 +32,7 @@
 .wrapper .merchant li{
 	display:flex;
 	padding: 2.5vw;
-	margin: 1vw;
+	margin: 2vw;
 	user-select:none;
 	cursor:pointer;
 	background-color: white;
@@ -89,7 +89,7 @@
 	
 	position: fixed;
 	bottom: 3vw;
-	left: 2.5vw;
+	left: 2.5%;
 	
 	display:flex;
 	justify-content: space-around;
