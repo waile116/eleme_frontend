@@ -26,95 +26,72 @@ body{
 	font-weight: 700;
 }
 
-/********* 订单信息 *********/
-.wrapper h3{
+/********* 地址列表 *********/
+.wrapper .address-list{
 	width: 100%;
 	box-sizing: border-box;
-	padding: 15vw 3vw 1vw;
-	
-	font-size: 3.5vw;
-	font-weight: 300;
-	color: gray;
+	margin-top: 15vw;
 }
-.wrapper .order-info{
-	width: 100%;
-	box-sizing: border-box;
-	padding: 2vw 3vw;
-	font-size: 3.5vw;
-	color: darkslategray;
-	
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-.wrapper .order-info .fa-caret-down{
-	user-select: none;
-	cursor: pointer;
-}
-.wrapper .order-info p:last-child{
-	color: orangered;
-}
-
-/********* 订单明细 *********/
-.wrapper .order-detail{
-	width: 100;
-	margin-bottom: 8vw;
-}
-.wrapper .order-detail li{
-	box-sizing: border-box;
-	padding: 1vw 3vw 0vw;
-	
-	display: flex;
-	justify-content: space-between;
-	
-	font-size: 3vw;
-	color: darkslategray;
-}
-
-/********* 支付方式 *********/
-.wrapper .payment-method{
+.wrapper .address-list li{
 	width: 95%;
-	margin: 2vw 2.5vw;
+	padding: 5vw 3vw;
+	box-sizing: border-box;
+	margin: 0 2.5vw 3vw;
 	
 	background-color: white;
 	border-radius: 5vw;
-}
-.wrapper .payment-method li{
-	width: 100%;
-	box-sizing: border-box;
-	padding: 3vw;
 	
 	display: flex;
 	justify-content: space-between;
+}
+.wrapper .address-list li .address-info h3{
+	color: darkslategray;
+	font-size: 3.5vw;
+	font-weight: 500;
+	margin-bottom: 1vw;
+}
+.wrapper .address-list li .address-info p{
+	font-size: 3vw;
+	color: darkslategray;
+}
+.wrapper .address-list li .buttons{
+	font-size: 5vw;
+	color: gray;
+	display: flex;
 	align-items: center;
+	user-select:none;
 }
-.wrapper .payment-method li img{
-	width: 33vw;
-	height: 8.9vw;
+.wrapper .address-list li .buttons .fa-close{
+	margin-left: 3vw;
+	cursor: pointer;
 }
-.wrapper .payment-method li .fa-check-circle{
-	color: mediumseagreen;
-	font-size: 4.5vw;
+.wrapper .address-list li .buttons .fa-edit{
+	cursor: pointer;
 }
-.wrapper .payment-button{
+
+/********* 新增地址按钮 *********/
+.wrapper .addressadd-button{
 	width: 100%;
 	box-sizing: border-box;
 	padding: 4vw 10vw 20vw;
 	display: flex;
 	justify-content: center;
-	align-items: center;
 }
-.wrapper .payment-button button{
+.wrapper .addressadd-button button{
 	width: 100%;
 	height: 10vw;
-	font-size: 3.5vw;
-	color: white;
-	background-color: mediumseagreen;
+	background-color: deepskyblue;
 	border: none;
 	outline: none;
 	border-radius: 4vw;
 	
+	font-size: 3.5vw;
+	color: white;
+	
 	cursor: pointer;
+}
+.wrapper .addressadd-button button .fa-plus-circle{
+	margin-right: 2vw;
 }
 
 /********* 底部菜单 *********/

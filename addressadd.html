@@ -5,39 +5,52 @@
 		<meta name = "viewport" content="width = device-width, initial-scale = 1">
 		<link rel="stylesheet" href="framework/font-awesome/css/font-awesome.min.css">
 		<link rel="stylesheet" href="framework/css_reset.css">
-		<link rel="stylesheet" href="css/login.css">
-		<title>饿了么 | 用户登录</title>
+		<link rel="stylesheet" href="css/addressadd.css">
+		<title>饿了么 | 新增送货地址</title>
 	</head>
 	<body>
 		<div class="wrapper">
 			<!--头部-->
-			<header><p>用户登录</p></header>
+			<header><p>新增送货地址</p></header>
 			<!--表单-->
 			<ul class="form-box">
 				<li>
 					<div class="title">
-						手机号码:
+						联系人:
 					</div>
 					<div class="content">
-						<input type="text" placeholder="手机号码">
+						<input type="text" placeholder="联系人姓名">
 					</div>
 				</li>
 				<li>
 					<div class="title">
-						密码:
+						性别:
+					</div>
+					<div class="content" style="font-size: 3vw; color: darkslategray;">
+						<input type="radio" name="sex" checked style="width: 6vw; height: 3.2vw;">男
+						<input type="radio" name="sex" style="width: 6vw; height: 3.2vw;">女
+					</div>
+				</li>
+				<li>
+					<div class="title">
+						电话:
 					</div>
 					<div class="content">
-						<input type="text" placeholder="密码">
+						<input type="text" placeholder="电话">
+					</div>
+				</li>
+				<li>
+					<div class="title">
+						收货地址:
+					</div>
+					<div class="content">
+						<input type="text" placeholder="收货地址">
 					</div>
 				</li>
 			</ul>
-			<!--登录按钮-->
-			<div class="login-button">
-				<button>登录</button>
-			</div>
-			<!--注册按钮-->
-			<div class="register-button" onclick="location.href = 'register.html'">
-				<button>去注册</button>
+			<!--保存按钮-->
+			<div class="save-button" onclick="location.href = 'address.html'">
+				<button>保存</button>
 			</div>
 			<!--底部菜单-->
 			<ul class="footer">

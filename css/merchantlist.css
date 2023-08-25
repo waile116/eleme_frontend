@@ -1,6 +1,7 @@
 /********* 总容器 *********/
 .wrapper{
 	width: 100%;
+	background-color: #f2f2f2;
 }
 
 /********* 头部 *********/
@@ -36,7 +37,6 @@
 	user-select:none;
 	cursor:pointer;
 	background-color: white;
-	border: solid 1px darkgray;
 	border-radius: 5vw;
 }
 .wrapper .merchant li .merchant-img{
@@ -76,7 +76,7 @@
 .wrapper .merchant li .merchant-info p{
 	margin-bottom: 2vw;
 	font-size: 3vw;
-	color: darkslategrey;
+	color: gray;
 }
 
 /*********底部菜单*********/

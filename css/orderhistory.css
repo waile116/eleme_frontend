@@ -1,7 +1,10 @@
+body{
+	background-color: #f2f2f2;
+}
+
 /********* 总容器 *********/
 .wrapper{
 	width: 100%;
-	height: 100%;
 }
 
 /********* 头部 *********/
@@ -28,8 +31,9 @@
 	box-sizing: border-box;
 	padding: 3vw;
 	margin: 14vw 2vw 2vw;
+	padding-bottom: 2vw;
 	user-select:none;
-	border: solid 1px darkgray;
+	background-color: white;
 	border-radius: 5vw;
 }
 .wrapper .order h3{
@@ -70,6 +74,7 @@
 .wrapper .order .orders li .order-detail li{
 	font-size: 3vw;
 	color: darkslategray;
+	margin-bottom: 1vw;
 	
 	display: flex;
 	justify-content: space-between;

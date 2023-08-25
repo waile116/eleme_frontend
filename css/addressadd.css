@@ -26,85 +26,44 @@ body{
 	font-weight: 700;
 }
 
-/********* 订单信息 *********/
-.wrapper h3{
+/********* 表单 *********/
+.wrapper .form-box{
 	width: 100%;
-	box-sizing: border-box;
-	padding: 15vw 3vw 1vw;
-	
-	font-size: 3.5vw;
-	font-weight: 300;
-	color: gray;
+	padding-top: 12vw;
 }
-.wrapper .order-info{
-	width: 100%;
-	box-sizing: border-box;
-	padding: 2vw 3vw;
-	font-size: 3.5vw;
-	color: darkslategray;
-	
+.wrapper .form-box li{
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
-}
-.wrapper .order-info .fa-caret-down{
-	user-select: none;
-	cursor: pointer;
-}
-.wrapper .order-info p:last-child{
-	color: orangered;
-}
-
-/********* 订单明细 *********/
-.wrapper .order-detail{
-	width: 100;
-	margin-bottom: 8vw;
-}
-.wrapper .order-detail li{
 	box-sizing: border-box;
-	padding: 1vw 3vw 0vw;
-	
-	display: flex;
-	justify-content: space-between;
+	padding: 3vw 3vw 0;
+}
+.wrapper .form-box li .title{
+	flex: 0 0 18vw;
+	font-size: 3.5vw;
+	font-weight: 700;
+	color: darkslategray;
+}
+.wrapper .form-box li .content{
+	flex: 1;
+}
+.wrapper .form-box li .content input{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 4vw 2vw;
+	border-radius: 3vw;
 	
 	font-size: 3vw;
-	color: darkslategray;
+	border: none;
+	outline: none;
 }
 
-/********* 支付方式 *********/
-.wrapper .payment-method{
-	width: 95%;
-	margin: 2vw 2.5vw;
-	
-	background-color: white;
-	border-radius: 5vw;
-}
-.wrapper .payment-method li{
-	width: 100%;
-	box-sizing: border-box;
-	padding: 3vw;
-	
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-.wrapper .payment-method li img{
-	width: 33vw;
-	height: 8.9vw;
-}
-.wrapper .payment-method li .fa-check-circle{
-	color: mediumseagreen;
-	font-size: 4.5vw;
-}
-.wrapper .payment-button{
+/********* 注册按钮 *********/
+.wrapper .save-button{
 	width: 100%;
 	box-sizing: border-box;
 	padding: 4vw 10vw 20vw;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
-.wrapper .payment-button button{
+.wrapper .save-button button{
 	width: 100%;
 	height: 10vw;
 	font-size: 3.5vw;
