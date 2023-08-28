@@ -9,11 +9,11 @@ html, body{
 	weight: 100%;
 	font-family: "微软雅黑";
 }
+/* 去掉列表样式 */
 ul,ol{
 	list-style: none;
 }
-/* 去掉列表样式 */
+/* 去掉超链接下划线 */
 a{
 	text-decoration: none;
 }
-/* 去掉超链接下划线 */
